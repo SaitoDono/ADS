@@ -8,7 +8,7 @@
     <h1>Add Subject</h1>
     <a href="../index.php">Home</a>
     <br/><br/>
-    <form action="C:\xampp\htdocs\webdevproject\ADS\functions\add.php" method="post" name="form1">
+    <form action="/functions/add.php" method="post" name="form1">
         <table width="25%" border="0">
             <tr>
                 <td>Subject Code</td>
@@ -20,7 +20,7 @@
             </tr>
             <tr>
                 <td></td>
-                <td><input type="submit" name="Submit" value="Add"></td>
+                <td><input type="submit" name="submit" value="Add"></td>
             </tr>
         </table>
     </form>
